@@ -85,9 +85,7 @@ int main(){
         if (ADCdata[i] == 0.000 && ADCdata[i-1] != 0.000) n++;
 
       result = round(n*10.0/11.0);
-
-      //pc.printf("%d\r\n", result);
-
+      
       n = 0.0;
 
       // seven-seg-disp goes here
